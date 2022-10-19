@@ -191,7 +191,7 @@ Boulevard de bourgogne 16 rue EL HAJEB, 20013 Casablanca
 </ul>
 
 
-<p class="footer-copyright-note">&copy; 2022 Scs info Inc. All rights reserved.</p>
+<p class="footer-copyright-note">&copy; 2022 Scs info AE. All rights reserved.</p>
 
 </div>
 
