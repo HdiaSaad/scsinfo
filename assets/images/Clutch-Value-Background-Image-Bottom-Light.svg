@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1366px" height="328px" viewBox="0 0 1366 328" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>bottom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-10.384793%" y1="106.961166%" x2="59.0030837%" y2="49.9019981%" id="linearGradient-1">
+            <stop stop-color="#787878" offset="0%"></stop>
+            <stop stop-color="#F6F6F6" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Clutch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-clutch12" transform="translate(0.000000, -1072.000000)" fill-rule="nonzero">
+            <g id="Group-23" transform="translate(0.000000, 731.000000)">
+                <g id="Group">
+                    <g id="bottom" transform="translate(0.000000, 124.000000)">
+                        <polygon id="Path" fill="url(#linearGradient-1)" opacity="0.100000001" points="779.54 552 1212.27 119.27 1093 0 541 552"></polygon>
+                        <g id="Group" opacity="0.100000001" transform="translate(50.000000, 269.000000)" fill="#000000">
+                            <polygon id="Path" points="623.98 0.96 88.98 535.96 87.75 535.96 622.75 0.96"></polygon>
+                            <polygon id="Path" points="614.23 0.96 79.22 535.96 78 535.96 613.01 0.96"></polygon>
+                            <polygon id="Path" points="604.47 0.96 69.48 535.96 68.26 535.96 603.26 0.96"></polygon>
+                            <polygon id="Path" points="594.73 0.96 59.73 535.96 58.5 535.96 593.5 0.96"></polygon>
+                            <polygon id="Path" points="584.97 0.96 49.97 535.96 48.76 535.96 583.76 0.96"></polygon>
+                            <polygon id="Path" points="575.22 0.96 40.22 535.96 39.01 535.96 574.01 0.96"></polygon>
+                            <polygon id="Path" points="565.48 0.96 30.48 535.96 29.25 535.96 564.25 0.96"></polygon>
+                            <polygon id="Path" points="555.72 0.96 20.72 535.96 19.5 535.96 554.51 0.96"></polygon>
+                            <polygon id="Path" points="545.97 0.96 10.98 535.96 9.76 535.96 544.75 0.96"></polygon>
+                            <polygon id="Path" points="536.23 0.96 1.23 535.96 0 535.96 535 0.96"></polygon>
+                        </g>
+                        <g id="Group" opacity="0.200000003" transform="translate(1286.650062, 485.986139) rotate(24.000000) translate(-1286.650062, -485.986139) translate(1147.650062, 336.486139)">
+                            <polygon id="Path" fill="#E9EDF2" points="277.45874 192.525013 194.006741 298.955433 18.4587397 270.385853 101.884059 163.955433"></polygon>
+                            <polygon id="Path" fill="#DADADA" points="19.2422438 271.982169 0.489422554 106.676196 83.9463935 0.982169235 102.489423 163.980508"></polygon>
+                            <polygon id="Path" fill="#FFFFFF" points="277.862264 194.2131 102.405013 164.170327 82.8622641 1.21310016 258.363651 29.5577194"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

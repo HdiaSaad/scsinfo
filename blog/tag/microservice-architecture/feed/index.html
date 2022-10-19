@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>microservice architecture Archives - Unified Infotech</title>
+	<atom:link href="https://www.unifiedinfotech.net/blog/tag/microservice-architecture/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.unifiedinfotech.net/blog/tag/microservice-architecture/</link>
+	<description></description>
+	<lastBuildDate>Fri, 20 May 2022 10:28:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://www.unifiedinfotech.net/blog/wp-content/uploads/2019/12/cropped-Unified-Infotech-2-32x32.png</url>
+	<title>microservice architecture Archives - Unified Infotech</title>
+	<link>https://www.unifiedinfotech.net/blog/tag/microservice-architecture/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Decoding Microservice Architecture &#8211; How Good Or Bad Is It For Your Business</title>
+		<link>https://www.unifiedinfotech.net/blog/microservices-architecture-for-your-business/</link>
+					<comments>https://www.unifiedinfotech.net/blog/microservices-architecture-for-your-business/#respond</comments>
+		
+		<dc:creator><![CDATA[Pratip Biswas]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2020 06:44:23 +0000</pubDate>
+				<category><![CDATA[All]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[microservice]]></category>
+		<category><![CDATA[microservice application]]></category>
+		<category><![CDATA[microservice architecture]]></category>
+		<guid isPermaLink="false">https://www.unifiedinfotech.net/blog/?p=12128</guid>
+
+					<description><![CDATA[<p>“To be effective in fulfilling your goals, you must break them down into little tasks and then spend most of your time working on the task in front of you, instead of being overwhelmed by the enormity of the big goal.” ― Sunday Adelaja. Well, microservices do not typically follow this ideology. However, while creating […]</p>
+<p>The post <a rel="nofollow" href="https://www.unifiedinfotech.net/blog/microservices-architecture-for-your-business/">Decoding Microservice Architecture – How Good Or Bad Is It For Your Business</a> appeared first on <a rel="nofollow" href="https://www.unifiedinfotech.net/blog">Unified Infotech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">“</span><i><span style="font-weight: 400;">To be effective in fulfilling your goals, you must break them down into little tasks and then spend most of your time working on the task in front of you, instead of being overwhelmed by the enormity of the big goal.</span></i><span style="font-weight: 400;">” ― Sunday Adelaja.</span></p>
+<p><span style="font-weight: 400;">Well, microservices do not typically follow this ideology. However, while creating Enterprise Applications, this is the ideal principle to follow. </span></p>
+<p><span style="font-weight: 400;">Why am I saying this! Is the traditional monolithic architecture no more workable for enterprises to build applications? </span></p>
+<p><span style="font-weight: 400;">The </span><i><span style="font-weight: 400;">Camunda research</span></i><span style="font-weight: 400;"> report revealed that almost </span><a href="https://www.globenewswire.com/news-release/2018/09/20/1573625/0/en/New-Research-Shows-63-Percent-of-Enterprises-Are-Adopting-Microservices-Architectures-Yet-50-Percent-Are-Unaware-of-the-Impact-on-Revenue-Generating-Business-Processes.html"><span style="font-weight: 400;">63% of enterprises are adopting microservices web application architecture</span></a><span style="font-weight: 400;"> these days. But still many businesses out there are unsure whether it is profitable for businesses to implement it or not. </span></p>
+<p><span style="font-weight: 400;">This is why I thought of sharing a detailed guide on this trending microservices architecture. </span></p>
+<p><span style="font-weight: 400;">Here are what you’ll find in this article for microservices architecture.</span></p>
+<ol class="scrollspy-links">
+<li><a href="#What_is_Microservices">What is Microservices &#8211; A quick sneak peek</a></li>
+<li><a href="#Problems_you’ll_face_with_a_monolithic_architecture">Problems you’ll face with a monolithic architecture</a></li>
+<li><a href="#How_microservices_architecture_addresses_the_issues_of_monolithic_architecture">How microservices architecture addresses the issues of monolithic architecture</a></li>
+<li><a href="#How_your_business_value_increases_with_microservices_architecture">How your business value increases with microservices architecture</a></li>
+<li><a href="#Some_of_the_best_microservices_architecture_examples">Some of the best microservices architecture examples (Spotify, Netflix, Uber)</a></li>
+<li><a href="#Best_technologies_to_build_a_microservices_architecture">Best technologies to build a microservices architecture</a></li>
+<li><a href="#When_should_you_opt_for_microservices_architecture">When should you opt for microservices architecture</a></li>
+</ol>
+<p><span style="font-weight: 400;">Let’s get into the details. </span></p>
+<h2 id="What_is_Microservices"><span style="font-weight: 400;">1. What is Microservices &#8211; An Introduction</span></h2>
+<p><span style="font-weight: 400;">What is microservices architecture? How microservices work? Do you need to follow any special microservices design principles? Let me explain in simpler words. </span></p>
+<p><span style="font-weight: 400;">Microservices is a software or application development process. And this process emphasizes on devising single-purpose modules with specific interfaces and operations. </span></p>
+<p><span style="font-weight: 400;">Rather than building an application or software as a whole, the entire functionality set is split up into unique processes. And then, each process is devised (both designed and developed) as an independent service. Lastly, by combining all the microservices together, a complete and efficient application emerges. </span></p>
+<p><span style="font-weight: 400;">As you might have guessed already, development complexity significantly reduces with this practice. Also, your business gets the opportunity to adopt new technologies and processes. This helps your business to stay competitive in today’s market. </span></p>
+<h2 id="Problems_you’ll_face_with_a_monolithic_architecture"><span style="font-weight: 400;">2. Issues You’ll Face with Monolithic Architecture </span></h2>
+<p><span style="font-weight: 400;">The traditional way of building applications is monolithic architecture. Usually, a solution built on monolithic architecture has the following things.</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A server-side application</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A client-side user interface</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A database</span></li>
+</ul>
+<p><span style="font-weight: 400;">All the application functions are managed and served in one place. </span></p>
+<p><span style="font-weight: 400;">Even though this is the traditional way to build software, it comes with several drawbacks. </span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">While scaling up a monolithic application, things become pretty complex to understand. So, managing a large pile of complex code is hard. </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Suppose you want to make some changes to the application functionality. Doing so becomes kinda complicated in a monolithic application. The changes might affect the rest of the code. And as a result, the application might become a faulty one.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">This approach comes with the limitations of scaling components independently. You always have to scale the whole application. Scaling a single component independently here is not possible at all. </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Adopting new technologies in a monolithic application is a huge burden. You always have to start working from scratch.</span></li>
+</ul>
+<h2 id="How_microservices_architecture_addresses_the_issues_of_monolithic_architecture"><span style="font-weight: 400;">3. How Microservices Addresses the Issues of Monolithic Architecture</span></h2>
+<p><span style="font-weight: 400;">Microservices architecture addresses the issues you face in a monolithic application. And this is another reason behind its immense popularity. </span></p>
+<p><span style="font-weight: 400;">Let’s see how the features of microservices architecture tackle the problems of monolithic architecture.</span></p>
+<h3><span style="font-weight: 400;">Flexibility</span></h3>
+<p><span style="font-weight: 400;">This advanced type of architecture is pretty flexible. You already know that in a microservices application, the entire functionality is divided into multiple smaller unique processes. And each process is crafted separately, as an independent service. </span></p>
+<p><span style="font-weight: 400;">So, the software engineers have to deal with the comparatively fewer codebase to develop a single process. Thus, managing and making any changes in the codebase for a single module is pretty easier for the developers. </span></p>
+<p><span style="font-weight: 400;">Also, different services can be built using different technologies. So, adopting new technology or upgrading the tech stack for a particular module is not a big deal for the coding experts. </span></p>
+<p><span style="font-weight: 400;">This flexibility is a major advantage of microservices over traditional monolithic architecture. </span></p>
+<h3><span style="font-weight: 400;">Scalability</span></h3>
+<p><span style="font-weight: 400;">In a monolithic architecture, you can’t scale the individual components. You always have to work with a large pile of code. And you have to scale the entire application. Microservices make this issue a breeze.</span></p>
+<p><span style="font-weight: 400;">In a microservices application, you can easily deal with individual components. If needed, you can scale each component individually. As such microservices are of smaller size, caching is much more effective in this process. </span></p>
+<h3><span style="font-weight: 400;">Faster Development Process </span></h3>
+<p><span style="font-weight: 400;">The code volume is significantly much less in a microservice. So, even if new developers join your team, they can easily go through the entire codebase and understand it. Thus, the knowledge transfer session is not ‘eternally’ longer! Your development team can be productive right from the start.</span></p>
+<p><span style="font-weight: 400;">Also, the IDE is much faster here. And the codebase is maintained well. Thus, all these factors considerably make the application development process much faster. And the reduced development time always fascinates organizations. </span></p>
+<h3><span style="font-weight: 400;">Developing Complex Applications</span></h3>
+<p><span style="font-weight: 400;">Building an application or software as a whole is always a complicated process. Managing a large pile of code is not a cakewalk. And monolithic architecture does exactly that. So, building an application with complex functionalities is an onerous process in a monolithic approach. </span></p>
+<p><span style="font-weight: 400;">In the microservices approach, you have to analyze the entire feature set of the application first. Then, you can split it up into multiple smaller and independent processes or components. Now, your job is to devise each process independently which is much easier. </span></p>
+<p><span style="font-weight: 400;">Depending on the requirements, you can choose different tech stack to build individual modules. There are no limitations in technologies here. So, devising complex applications becomes a breeze with the microservices architecture. </span></p>
+<h3><span style="font-weight: 400;">Easier Deployment</span></h3>
+<p><span style="font-weight: 400;">When you make any changes in an individual component, you have to redeploy it. In the monolithic approach, any changes in the code might hamper the entire codebase. And the application might become a faulty one. This is surely a huge problem for web application developers.</span></p>
+<p><span style="font-weight: 400;">In a microservices architecture, updating an individual process is possible. And it is easier too. Only redeploying the updated component won’t hamper the rest of the codebase. Thus, the application will work perfectly fine. No wonder why web developers today are showing great interest in </span><a href="https://www.unifiedinfotech.net/services/web-app-development/"><span style="font-weight: 400;">building web applications with microservices architecture</span></a><span style="font-weight: 400;">.  </span></p>
+<h3><span style="font-weight: 400;">Reliability</span></h3>
+<p><span style="font-weight: 400;">As each component is developed individually in microservices, the applications are much more reliable. If one module shows some glitches, the entire application doesn’t get affected. The web experts can work on the individual module and fix it without hampering the rest of the application functionality. </span></p>
+<h2 id="How_your_business_value_increases_with_microservices_architecture"><span style="font-weight: 400;">4. How to Increase Your Business Value with Microservices architecture? </span></h2>
+<p><span style="font-weight: 400;">So far, you’ve got to know how microservices are addressing the issues of monolithic architecture. And why microservices have got a separate fanbase among the web developers worldwide. </span></p>
+<p><span style="font-weight: 400;">Now, I’m going to discuss the business benefits of adopting the approach that microservices uses. While creating feature-rich web applications, how microservices become a big help- I’m going to highlight that now. </span></p>
+<p><span style="font-weight: 400;">But before beginning, let’s clear whether we’re on the same page or not. The microservices do not refer or define any specific technology, or tools, or processes. Rather, it focuses on how you’re completing your goals and objectives. </span></p>
+<p><span style="font-weight: 400;">The sooner the work processes are automated, the faster the delivery will be. For any businesses out there, this is the ultimate truth. </span></p>
+<p><span style="font-weight: 400;">Now, faster delivery doesn’t mean you can deliver just anything! I mean delivering something with buggy components and technical glitches is not acceptable. So, in terms of what they deliver, the applications have to be consistent and reliable too. </span></p>
+<p><span style="font-weight: 400;">While analyzing the business value of microservices, the focus will be on two aspects &#8211; </span><b>development speed and reliability. </b></p>
+<p><span style="font-weight: 400;">Let’s talk about development first!</span></p>
+<h3><span style="font-weight: 400;">Development Speed </span></h3>
+<p><span style="font-weight: 400;">Doing more in less time means higher productivity. Higher productivity ensures increased sales. And increased sales means augmented business ROIs. And what can be more important than higher ROIs for a business!</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Agility is one of the most-wanted features of microservices architecture. With it, businesses can craft and deliver more frequent and newer products, features, and functions. </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The comprehensibility of microservices is pretty high. Undoubtedly, it simplifies development planning along with increasing the accuracy levels of a task. Also, the new resources can easily understand what’s going on in a process and cope up with it. </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Microservices allow independent deployability of processes. So, prototyping, developing, and delivering individual business components is easily possible here. </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The use of different technologies ensures all your business goals are achieved. </span></li>
+</ul>
+<h3><span style="font-weight: 400;">Reliability</span></h3>
+<p><span style="font-weight: 400;">Now, it is time to discuss it from the perspective of achieving business goals. Let’s find out:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Independent manageability of microservices reduces scheduled down-times.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">With microservices, greater efficiency is assured at lower infrastructure costs.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The replaceability of the process components is easier with microservices for businesses.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A business scope can change at any time. With microservices, adapting to these changes is much easier. </span></li>
+</ul>
+<p><span style="font-weight: 400;">Thus, microservices offer great benefits and add value to your business.</span></p>
+<h2 id="Some_of_the_best_microservices_architecture_examples"><span style="font-weight: 400;">5. How Globally Popular Organizations are Using Microservices Architecture?</span></h2>
+<p><span style="font-weight: 400;">Microservice based architecture brings revolutionary benefits to enterprises. And this is why big names like </span><i><span style="font-weight: 400;">Netflix</span></i><span style="font-weight: 400;">, </span><i><span style="font-weight: 400;">Uber</span></i><span style="font-weight: 400;">, </span><i><span style="font-weight: 400;">Spotify</span></i><span style="font-weight: 400;">, etc. are leveraging the power of microservices architecture. </span></p>
+<p><span style="font-weight: 400;">Here I’m going to show you some of the best microservices architecture examples. </span></p>
+<h3><span style="font-weight: 400;">Netflix</span></h3>
+<p><span style="font-weight: 400;">Previously, Netflix was following traditional monolithic architecture. But to cope up with its rising demand, Netflix moved to microservices in 2009. </span></p>
+<p><span style="font-weight: 400;">The concept of microservices was not clearly defined back then. So, the engineers devised an open-source technology to offer the best Internet-based television network. Thus, deploying a pile of code daily to provide the necessary support became a breeze for the Netflix developers.</span></p>
+<p><span style="font-weight: 400;">Here, you need to keep in mind that Netflix has over </span><a href="https://edition.cnn.com/2019/01/17/media/netflix-earnings-q4/index.html"><span style="font-weight: 400;">193 million subscribers</span></a><span style="font-weight: 400;">. And it offers almost 10 billion hours of TV series and movies to its subscribers. So, providing support to this huge database is not a cakewalk. Indeed microservices architecture saved Netflix from the great pain!</span></p>
+<h3><span style="font-weight: 400;">Spotify</span></h3>
+<p><span style="font-weight: 400;">Synchronization becomes easier with independently scalable components within a system. And the Spotify owner was looking for something exactly like this to prevent massive support failures to more than 75 million active Spotify users. </span></p>
+<p><span style="font-weight: 400;">In a microservices architecture, if one module goes down, it doesn’t affect the entire application. This is what benefitted Spotify. The Spotify users won’t be affected even if multiple services of Spotify fail simultaneously.  </span></p>
+<h3><span style="font-weight: 400;">Uber</span></h3>
+<p><span style="font-weight: 400;">Most of the startups start their venture with a monolithic architecture. And Uber was no exception to that. When it was about only the UberBLACK service, monolithic was good. But with time, it started to grow. </span></p>
+<p><span style="font-weight: 400;">With Uber’s rapid growth, the developers switched to microservices for better results. Now, Uber uses multiple trending technologies and frameworks to improve the app’s overall scalability. Today, Uber has more than 1300 active microservices. No wonder why we all love Uber’s excellent and instant service!</span></p>
+<h2 id="Best_technologies_to_build_a_microservices_architecture"><span style="font-weight: 400;">6. Best Technologies and Microservices Frameworks to Build an Application</span></h2>
+<p><span style="font-weight: 400;">With microservices, you can indeed use different languages or technologies for diverse services. However, adding multiple programming languages in the tech stack can raise the overall performance overhead. So, you have to standardize the tech stack while choosing the programming language. </span></p>
+<p><span style="font-weight: 400;">Depending on your business requirements, you should choose the right microservices framework. Make sure the language you choose</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Provides support for automation</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Highly observable</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Allows decentralization of components</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Offers consumer-first approach</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Provides support for continuous integration</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Modeled around business domain</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Allows independent deployment.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Here is the list of the most popular languages for microservices development.</span></p>
+<table>
+<tbody>
+<tr>
+<td><b>Language</b></td>
+<td><b>Microservices Frameworks </b></td>
+<td><b>Benefits</b></td>
+</tr>
+<tr>
+<td><span style="font-weight: 400;">Java</span></td>
+<td>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Spring Boot</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Spark</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Restlet</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dropwizard</span></li>
+</ul>
+</td>
+<td>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Annotation syntax is easy to read</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Offers more value in readability</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Offers a user Interface, model components, and connectivity to back-end resources</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span style="font-weight: 400;">Node JS</span></td>
+<td><span style="font-weight: 400;">Microservices Node JS is built either using IO-bound or CPU-bound code. </span></td>
+<td>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Attains enhanced productivity</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Reduced overall development cost</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">High performing applications</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span style="font-weight: 400;">Python</span></td>
+<td>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Bottle</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Flask</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Nameko</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Falcom</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">CherryPy</span></li>
+</ul>
+</td>
+<td>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Prototyping is faster and easier</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Ensures compatibility with legacy languages like ASP and PHP</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Utilizes web protocols and software to remotely manipulate objects</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span style="font-weight: 400;">C++</span></td>
+<td><span style="font-weight: 400;">Developers use REST SDK. It is a cross-platform library that runs on Windows, Mac OS, and Linux to implement the C++ microservices with less code.</span></td>
+<td>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">An object-oriented language that supports developers compile portable programs faster</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">C++ Microservices library offers a dynamic service registry based on the service layer</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Loose coupling between service providers and consumers</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Extensible and reconfigurable systems</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Software components reuse</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span style="font-weight: 400;">.NET</span></td>
+<td><span style="font-weight: 400;">ASP.NET</span></td>
+<td>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Built-in support for building and deploying microservices using Docker containers</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">You can mix the .Net microservices with applications written in Java, Node JS, or any other languages.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">.Net microservices can run on all leading cloud platforms.</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="When_should_you_opt_for_microservices_architecture"><span style="font-weight: 400;">7. When Should You Opt For Microservice Based Architecture?</span></h2>
+<p><span style="font-weight: 400;">If you’ve reached this far while reading, I can safely assume that you’ve got an idea about microservices architecture. Now, should you always follow this approach while crafting an application or software? Or are there some special cases where implementing microservices will be beneficial? </span></p>
+<p><span style="font-weight: 400;">To deal with a microservices architecture, simple architecture knowledge is not enough. Without proper microservices expertise, making a microservice application is very risky.</span></p>
+<p><span style="font-weight: 400;">Splitting an application’s functionality and dividing responsibility sounds interesting. But, in reality, implementing this approach is pretty hard without the right experts. So, for startups, with a small team, implementing microservices is a bit tough. To build a lightweight and simple application, there is no need to implement microservices.</span></p>
+<p><span style="font-weight: 400;">If you want to build a scalable and complex application, microservices is the right choice for you. When your application requires multiple module development, you should follow this approach. </span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Planning to grow your team?</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Need a piece of your platform to be extremely efficient?</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Need independent and quick service delivery?</span></li>
+</ul>
+<p><span style="font-weight: 400;">If your answer is yes to all the above-mentioned questions, opt for microservices. However, make sure you have the right skilled resources to adopt this architecture. </span></p>
+<h2><span style="font-weight: 400;">Wrapping Up</span></h2>
+<p><span style="font-weight: 400;">According to experts, the future of microservices leads us one step closer to the serverless architecture. This extensive concept applies to churn products, applications, or solutions to a more granular and modular level. </span></p>
+<p><span style="font-weight: 400;">So, building a feature-rich application with a wide range of functionalities becomes easier with microservices. If you’re looking for experts to hire to build microservice applications, get in touch with us. </span></p>
+<p>The post <a rel="nofollow" href="https://www.unifiedinfotech.net/blog/microservices-architecture-for-your-business/">Decoding Microservice Architecture &#8211; How Good Or Bad Is It For Your Business</a> appeared first on <a rel="nofollow" href="https://www.unifiedinfotech.net/blog">Unified Infotech</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.unifiedinfotech.net/blog/microservices-architecture-for-your-business/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="294" height="255" viewBox="0 0 294 255">
+    <g fill="none" fill-rule="evenodd" transform="translate(-22 -40)">
+        <circle cx="79.5" cy="88.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <circle cx="80.5" cy="245.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <circle cx="258.5" cy="88.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <circle cx="257.5" cy="246.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="73" y="94">A</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="253" y="94">B</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="251" y="253">C</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="75" y="252">D</tspan>
+        </text>
+        <path stroke="#000" d="M237.985 70.992c-39.208-39.208-102.777-39.208-141.985 0"/>
+        <path fill="#000" d="M239.302 72.251L233 70.913 237.744 66z"/>
+        <g opacity=".5">
+            <path stroke="#000" stroke-dasharray="3" d="M62.009 105c-25.135 38.472-26.67 82.457-2.096 120.078"/>
+            <path fill="#000" d="M63.825 230.645l-5.84-2.722 5.728-3.72z"/>
+        </g>
+        <path stroke="#000" d="M275.087 228.078c23.777-39.326 23.777-83.338-2.096-120.078"/>
+        <path fill="#000" d="M273.971 229.72l-.225-6.44 5.914 3.415z"/>
+        <path stroke="#000" d="M238.985 263.992C199.777 303.2 136.208 303.2 97 263.992"/>
+        <path fill="#000" d="M100.999 263.74l-4.556 4.555-1.536-6.654z"/>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300">
+            <tspan x="157" y="61">$ 5</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300">
+            <tspan x="51" y="168">$ 15</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300">
+            <tspan x="263" y="168">$ 3</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300">
+            <tspan x="158" y="285">$ 1</tspan>
+        </text>
+        <g fill="#EDEDED" stroke="#000">
+            <path d="M23.5 45.5h31v9h-31zM23.5 71.854h31v9h-31zM23.5 58.5h31v9h-31zM23.5 84.854h31v9h-31z"/>
+        </g>
+        <g fill="#EDEDED" stroke="#000">
+            <path d="M283.5 239.5h31v9h-31zM283.5 265.854h31v9h-31zM283.5 252.5h31v9h-31zM283.5 278.854h31v9h-31z"/>
+        </g>
+        <g fill="#EDEDED" stroke="#000">
+            <path d="M24.5 239.5h31v9h-31zM24.5 265.854h31v9h-31zM24.5 252.5h31v9h-31zM24.5 278.854h31v9h-31z"/>
+        </g>
+        <g fill="#EDEDED" stroke="#000">
+            <path d="M282.5 49.5h31v9h-31zM282.5 75.854h31v9h-31zM282.5 62.5h31v9h-31zM282.5 88.854h31v9h-31z"/>
+        </g>
+    </g>
+</svg>

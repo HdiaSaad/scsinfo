@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="254" height="255" viewBox="0 0 254 255">
+    <g fill="none" fill-rule="evenodd" transform="translate(-40 -40)">
+        <circle cx="78.5" cy="88.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <circle cx="79.5" cy="245.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <circle cx="257.5" cy="88.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <circle cx="256.5" cy="246.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="72" y="94">A</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="253" y="94">B</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="250" y="253">C</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="73" y="252">D</tspan>
+        </text>
+        <path stroke="#000" d="M237.985 70.992c-39.208-39.208-102.777-39.208-141.985 0"/>
+        <path fill="#000" d="M239.302 72.251L233 70.913 237.744 66z"/>
+        <path stroke="#F00" stroke-dasharray="3" d="M62.009 105c-25.135 38.472-26.67 82.457-2.096 120.078"/>
+        <path fill="#F00" d="M63.825 230.645l-5.84-2.722 5.728-3.72z"/>
+        <path stroke="#000" d="M274.087 228.078c23.777-39.326 23.777-83.338-2.096-120.078"/>
+        <path fill="#000" d="M272.971 229.72l-.225-6.44 5.914 3.415z"/>
+        <path stroke="#000" d="M238.985 263.992C199.777 303.2 136.208 303.2 97 263.992"/>
+        <path fill="#000" d="M100.999 263.74l-4.556 4.555-1.536-6.654z"/>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300">
+            <tspan x="57" y="60">$ 10</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300">
+            <tspan x="155" y="61">$ 5</tspan>
+        </text>
+        <text fill="#F00" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300">
+            <tspan x="49" y="168">$ 15</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300">
+            <tspan x="262" y="168">$ 3</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300">
+            <tspan x="156" y="285">$ 1</tspan>
+        </text>
+        <path fill="#EDEDED" stroke="#000" d="M124.5 89.5h90v22h-90z"/>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="14" font-weight="300" transform="translate(124 89)">
+            <tspan x="22" y="16">A : $10</tspan>
+        </text>
+        <path fill="#EDEDED" stroke="#000" d="M123.5 133.5h90v22h-90z"/>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="14" font-weight="300" transform="translate(123 133)">
+            <tspan x="14" y="16">A B: $5</tspan>
+        </text>
+        <path fill="#000" d="M161.463 144.415L156 147.829V141z"/>
+        <path stroke="#000" stroke-linecap="square" d="M150.5 144.5h7"/>
+        <g>
+            <path fill="#EDEDED" stroke="#000" d="M123.5 177.5h90v22h-90z"/>
+            <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="14" font-weight="300" transform="translate(123 177)">
+                <tspan x="17" y="16">B C: $3</tspan>
+            </text>
+            <path fill="#000" d="M161.069 188.354l-5.464 3.414v-6.829z"/>
+            <path stroke="#000" stroke-linecap="square" d="M150.5 188.5h7"/>
+        </g>
+        <g>
+            <path fill="#EDEDED" stroke="#000" d="M123.5 221.5h90v22h-90z"/>
+            <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="14" font-weight="300" transform="translate(123 221)">
+                <tspan x="17" y="16">C D: $1</tspan>
+            </text>
+            <path fill="#000" d="M163.069 232.354l-5.464 3.414v-6.829z"/>
+            <path stroke="#000" stroke-linecap="square" d="M152.5 232.5h7"/>
+        </g>
+        <g fill="#7F7F7F" fill-rule="nonzero">
+            <path d="M169.496 114.583a3.077 3.077 0 0 0-3.073 3.072v3.073a.473.473 0 1 0 .945 0v-3.073c0-.565.222-1.098.626-1.502a2.112 2.112 0 0 1 1.502-.625c.565 0 1.098.222 1.502.625.403.404.625.937.625 1.502v4.018a2.13 2.13 0 0 1-2.127 2.128.473.473 0 1 0 0 .945c.847 0 1.615-.345 2.171-.9a3.063 3.063 0 0 0 .901-2.172v-4.019a3.05 3.05 0 0 0-.902-2.17 3.051 3.051 0 0 0-2.17-.902z"/>
+            <path d="M171.623 124.746v2.6c0 .565-.222 1.099-.625 1.502a2.112 2.112 0 0 1-1.502.625 2.13 2.13 0 0 1-2.128-2.127v-3.782c0-.565.222-1.099.626-1.502a2.113 2.113 0 0 1 1.501-.625.473.473 0 1 0 0-.945 3.077 3.077 0 0 0-3.072 3.072v3.782c0 .818.32 1.589.902 2.17a3.05 3.05 0 0 0 2.17.902 3.05 3.05 0 0 0 2.171-.901 3.05 3.05 0 0 0 .902-2.17v-2.6a.473.473 0 0 0-.945-.001z"/>
+        </g>
+        <g fill="#7F7F7F" fill-rule="nonzero">
+            <path d="M169.496 158.583a3.077 3.077 0 0 0-3.073 3.072v3.073a.473.473 0 1 0 .945 0v-3.073c0-.565.222-1.098.626-1.502a2.112 2.112 0 0 1 1.502-.625c.565 0 1.098.222 1.502.625.403.404.625.937.625 1.502v4.018a2.13 2.13 0 0 1-2.127 2.128.473.473 0 1 0 0 .945c.847 0 1.615-.345 2.171-.9a3.063 3.063 0 0 0 .901-2.172v-4.019a3.05 3.05 0 0 0-.902-2.17 3.051 3.051 0 0 0-2.17-.902z"/>
+            <path d="M171.623 168.746v2.6c0 .565-.222 1.099-.625 1.502a2.112 2.112 0 0 1-1.502.625 2.13 2.13 0 0 1-2.128-2.127v-3.782c0-.565.222-1.099.626-1.502a2.113 2.113 0 0 1 1.501-.625.473.473 0 1 0 0-.945 3.077 3.077 0 0 0-3.072 3.072v3.782c0 .818.32 1.589.902 2.17a3.05 3.05 0 0 0 2.17.902 3.05 3.05 0 0 0 2.171-.901 3.05 3.05 0 0 0 .902-2.17v-2.6a.473.473 0 0 0-.945-.001z"/>
+        </g>
+        <g fill="#7F7F7F" fill-rule="nonzero">
+            <path d="M169.496 202.583a3.077 3.077 0 0 0-3.073 3.072v3.073a.473.473 0 1 0 .945 0v-3.073c0-.565.222-1.098.626-1.502a2.112 2.112 0 0 1 1.502-.625c.565 0 1.098.222 1.502.625.403.404.625.937.625 1.502v4.018a2.13 2.13 0 0 1-2.127 2.128.473.473 0 1 0 0 .945c.847 0 1.615-.345 2.171-.9a3.063 3.063 0 0 0 .901-2.172v-4.019a3.05 3.05 0 0 0-.902-2.17 3.051 3.051 0 0 0-2.17-.902z"/>
+            <path d="M171.623 212.746v2.6c0 .565-.222 1.099-.625 1.502a2.112 2.112 0 0 1-1.502.625 2.13 2.13 0 0 1-2.128-2.127v-3.782c0-.565.222-1.099.626-1.502a2.113 2.113 0 0 1 1.501-.625.473.473 0 1 0 0-.945 3.077 3.077 0 0 0-3.072 3.072v3.782c0 .818.32 1.589.902 2.17a3.05 3.05 0 0 0 2.17.902 3.05 3.05 0 0 0 2.171-.901 3.05 3.05 0 0 0 .902-2.17v-2.6a.473.473 0 0 0-.945-.001z"/>
+        </g>
+    </g>
+</svg>

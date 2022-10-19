@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="273px" height="505px" viewBox="0 0 273 505" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>studio booking_The way it works 02@4x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Studio-Booking" transform="translate(-388.000000, -4427.000000)">
+            <g id="the-way" transform="translate(-13.000000, 4208.000000)">
+                <g id="The-way-it-works" transform="translate(0.000000, 87.000000)">
+                    <g id="phone-+-phone-+-phone-+-phone-+-phone-+-phone-+-phone-+-phone-Mask">
+                        <g id="studio-booking_The-way-it-works" transform="translate(83.000000, 0.000000)">
+                            <g id="studio-booking_The-way-it-works-02" transform="translate(454.500000, 384.500000) rotate(-270.000000) translate(-454.500000, -384.500000) translate(202.000000, 248.000000)">
+                                <path d="M486,-9.06084097e-11 C496.49341,-9.06084097e-11 505,8.50658975 505,19 L505,254 C505,264.49341 496.49341,273 486,273 L19,273 C8.50658975,273 0,264.49341 0,254 L0,19 C0,8.50658975 8.50658975,-9.06084097e-11 19,-9.06084097e-11 L486,-9.06084097e-11 Z M486,1.27206336 L19,1.27206336 C9.20913095,1.27206336 1.27206336,9.20913095 1.27206336,19 L1.27206336,254 C1.27206336,263.790869 9.20913095,271.727937 19,271.727937 L486,271.727937 C495.790869,271.727937 503.727937,263.790869 503.727937,254 L503.727937,19 C503.727937,9.20913095 495.790869,1.27206336 486,1.27206336 Z" id="Combined-Shape" fill="#E2E2E2" fill-rule="nonzero"></path>
+                                <g transform="translate(55.000000, 16.000000)"></g>
+                                <path d="M34,121 C35.1045695,121 36,121.895431 36,123 L36,151 C36,152.104569 35.1045695,153 34,153 C32.8954305,153 32,152.104569 32,151 L32,123 C32,121.895431 32.8954305,121 34,121 Z" id="Rectangle" fill="#D8D8D8"></path>
+                                <circle id="Oval" stroke="#CBCDCD" cx="473" cy="136" r="16"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

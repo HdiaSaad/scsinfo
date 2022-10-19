@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="287" height="255" viewBox="0 0 287 255">
+    <defs>
+        <path id="a" d="M0 26h32v10H0V26z"/>
+        <mask id="b" width="32" height="10" x="0" y="0" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 -39)">
+        <circle cx="53.5" cy="92.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <circle cx="53.5" cy="92.5" r="13.5" fill="#FFF" stroke="#000"/>
+        <circle cx="54.5" cy="249.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <circle cx="227.5" cy="92.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <circle cx="226.5" cy="250.5" r="17.5" fill="#FFF" stroke="#000"/>
+        <circle cx="226.5" cy="250.5" r="13.5" fill="#FFF" stroke="#000"/>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="47" y="98">A</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="222" y="98">B</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="220" y="257">C</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="18" font-weight="300">
+            <tspan x="49" y="256">D</tspan>
+        </text>
+        <path stroke="#000" d="M210.985 70.992c-39.208-39.208-102.777-39.208-141.985 0"/>
+        <path fill="#000" d="M212.302 72.251L206 70.913 210.744 66z"/>
+        <path stroke="#000" d="M246.087 232.078c23.777-39.326 23.777-83.338-2.096-120.078"/>
+        <path fill="#000" d="M244.283 234.528l-.55-6.26 6.246 3.607z"/>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300">
+            <tspan x="130" y="61">$ 5</tspan>
+        </text>
+        <text fill="#000" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300">
+            <tspan x="234" y="172">$ 3</tspan>
+        </text>
+        <g fill="#EDEDED" stroke="#000">
+            <path d="M1.5 54.5h31v9h-31zM1.5 67.5h31v9h-31z"/>
+        </g>
+        <g fill="#EDEDED" stroke="#000">
+            <path d="M4.5 261.5h31v9h-31zM4.5 274.5h31v9h-31z"/>
+        </g>
+        <g fill="#EDEDED" stroke="#000">
+            <path d="M240.5 48.5h31v9h-31zM240.5 61.5h31v9h-31z"/>
+        </g>
+        <g fill="#EDEDED" stroke="#000" transform="translate(251 257)">
+            <path d="M.5.5h31v9H.5zM.5 13.5h31v9H.5z"/>
+            <use stroke-dasharray="3" stroke-width="2" mask="url(#b)" xlink:href="#a"/>
+        </g>
+        <path stroke="#F5A623" stroke-dasharray="3" d="M203 107c-28.518 9.791-54.587 24.7-78.207 44.726C101.173 171.75 81.243 195.843 65 224"/>
+        <path stroke="#ACACAC" stroke-dasharray="3" d="M132.306 164.39c1.682 26.628 10.62 51.104 26.817 73.43 16.196 22.324 44.436 39.18 84.72 50.566"/>
+        <path fill="#ACACAC" d="M246.915 289.147l-5.736 2.087 1.812-6.762z"/>
+        <path fill="#F6A623" d="M65.25 224.665l-.531-6.08 6.062 3.5z"/>
+        <path fill="#FFF" stroke="#F5A623" d="M119.5 137.5h90v22h-90z"/>
+        <text fill="#F5A623" font-family="CircularStd-Book, Circular Std" font-size="14" font-weight="300">
+            <tspan x="134" y="153">B C: $1</tspan>
+        </text>
+        <path fill="#F5A623" d="M157 148.5l-5 3.5v-7z"/>
+        <path fill="#F5A623" stroke="#F5A623" stroke-linecap="square" d="M147.5 148.5h7"/>
+        <text fill="#F5A623" font-family="CircularStd-Book, Circular Std" font-size="14" font-weight="300">
+            <tspan x="248" y="250">Miner</tspan>
+        </text>
+        <text fill="#F5A623" font-family="CircularStd-Book, Circular Std" font-size="14" font-weight="300">
+            <tspan x="77" y="97">Miner</tspan>
+        </text>
+    </g>
+</svg>

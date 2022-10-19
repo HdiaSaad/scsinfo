@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AngularJS2 Development Archives - Unified Infotech</title>
+	<atom:link href="https://www.unifiedinfotech.net/blog/tag/angularjs2-development/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.unifiedinfotech.net/blog/tag/angularjs2-development/</link>
+	<description></description>
+	<lastBuildDate>Thu, 04 Aug 2022 13:03:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://www.unifiedinfotech.net/blog/wp-content/uploads/2019/12/cropped-Unified-Infotech-2-32x32.png</url>
+	<title>AngularJS2 Development Archives - Unified Infotech</title>
+	<link>https://www.unifiedinfotech.net/blog/tag/angularjs2-development/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>AngularJS2, NetBeans &#038; Typescript</title>
+		<link>https://www.unifiedinfotech.net/blog/angularjs2-netbeans-typescript-a-fantastic-combination/</link>
+					<comments>https://www.unifiedinfotech.net/blog/angularjs2-netbeans-typescript-a-fantastic-combination/#respond</comments>
+		
+		<dc:creator><![CDATA[Pratip Biswas]]></dc:creator>
+		<pubDate>Wed, 29 Jun 2016 13:22:36 +0000</pubDate>
+				<category><![CDATA[All]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[AngularJS2 Development]]></category>
+		<category><![CDATA[NetBeans]]></category>
+		<category><![CDATA[Typescript]]></category>
+		<guid isPermaLink="false">https://www.unifiedinfotech.net/?p=4589</guid>
+
+					<description><![CDATA[<p>The release of the second version of AngularJS has brought along with it some interesting features that give a boost to the web development process. The introduction of Controllers and Directives, the change detection algorithm and a smooth server side rendering has put this framework on the winner’s side when it comes to providing scalable […]</p>
+<p>The post <a rel="nofollow" href="https://www.unifiedinfotech.net/blog/angularjs2-netbeans-typescript-a-fantastic-combination/">AngularJS2, NetBeans & Typescript</a> appeared first on <a rel="nofollow" href="https://www.unifiedinfotech.net/blog">Unified Infotech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;"><span style="font-size: medium;">The release of the second version of AngularJS has brought along with it some interesting features that give a boost to the web development process. The introduction of Controllers and Directives, the change detection algorithm and a smooth server side rendering has put this framework on the winner’s side when it comes to providing scalable solutions for any business. </span></p>
+<p style="text-align: justify;"><span style="font-size: medium;">Well, one interesting thing about AngularJS2 is that when it is combined with Typescript (the platform on which it was developed) has an array of benefits to offer to the user. These two when combined with NetBeans IDE results in the creation of something more fantastic. This blog will let you know what magic can this trio bring when combined together. </span></p>
+<p style="text-align: justify;"><span style="font-size: medium;"><i><b>How To Combine TypeScript And NetBeans</b></i></span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">To start with, let us take you through the brief process right from the beginning. First of all, you need to install NetBeans. Go to the <a href="https://netbeans.org/downloads/" target="_blank">Downloads Netbeans</a> Choose either the HTML version or download the entire application. Once done, you need to install the NetBeans module file. You will get the installation file in the form of a plug-in in the NetBeans Manager page. It is important to keep in mind here that while you are working with JavaScript all most all the tools are written in their own language and is executed with the help of Node.js.</span></p>
+<pre>import {bootstrap} from 'angular2/platform/browser';
+import {Component} from 'angular2/core';
+@Component({
+    selector: 'app',
+    template:`&lt;input type='text' placeholder= "Enter first name " [(ngModel)] = "firstName"&gt;
+              &lt;br&gt;&lt;input type='text' placeholder= "Enter last name " [(ngModel)] = "lastName"&gt;
+              &lt;br&gt;Hello {{firstName}} {{lastName}}`
+})
+class GreetingComponent {
+    firstName: string;
+    lastName: string;
+}
+bootstrap(GreetingComponent);</pre>
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;script src="node_modules/angular2/bundles/angular2-polyfills.js"&gt;&lt;/script&gt;
+        &lt;script src="node_modules/typescript/lib/typescript.js"&gt;&lt;/script&gt;
+        &lt;script src="node_modules/systemjs/dist/system.src.js"&gt;&lt;/script&gt;
+        &lt;script src="node_modules/rxjs/bundles/Rx.js"&gt;&lt;/script&gt;
+        &lt;script src="node_modules/angular2/bundles/angular2.dev.js"&gt;&lt;/script&gt;
+        &lt;script src="node_modules/angular2/bundles/http.dev.js"&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;app&gt;Loading...&lt;/app&gt;
+    &lt;script&gt;
+        System.config({
+            transpiler: 'typescript',
+            typescriptOptions: {emitDecoratorMetadata: true},
+            packages: {app: {defaultExtension: 'ts'}}
+        });
+        System.import('app/two_way_binding_greeting');
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">In order to set up NetBeans, go to the NetBeans settings page, select JS or HTML5 and then click the button for Node Path. A perfect way to start with </span><a href="https://www.unifiedinfotech.net/hire-angularjs-developers/" target="_blank">angularjs development</a><span style="font-size: medium;">. </span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;"><i><b>Running AngularJS 2 In NetBeans </b></i></span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">The setup process is not different from the other installation processes. Hence, the first thing to do is select the ‘New Project’ tab and then select either ‘HTML5’ or ‘JS application.’ Once done, you can click on the ‘Next’ button, enter the project name and specify the location of the folder. You can also add the templates to the project later. The final step will require you to generate a configuration file by clicking on the ‘Next’ button, instead of the ‘Finish’ button. You will get the following configurated file </span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">package.json (bower.json, if you use bower instead of NPM)</span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">Remember, npm will be used here in order to manage dependencies. Once you have set up the project in NetBeans, Angular 2 dependencies will be configured automatically in the package. You will get a more fair idea about the different individual components that are being used once you take a look at the below-mentioned dependencies along with their functionalities</span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">Concurrently – Used for executing many processes together in an independent manner</span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">Lite Server – Used during development, it is a lightweight server</span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">Typescript – A kind of transpiler, that helps to translate Typescript into JavaScript</span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">Relect metadata – Helps to inject dependency features with decorators</span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">ES6 – SHIM – Uses ES6 for browsers that do not have the ES6 support</span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">SystemJS – A kind of module loader that works with AngularJS</span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">Zone.js – Simplifies complex tasks of updating the view</span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">You can install these dependencies even directly from the website of NetBeans. </span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;"><i><b>How The Trio Will Be A Fantastic Combination?</b></i></span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;"><a href="https://www.unifiedinfotech.net/blog/how-does-learning-angularjs-development-directly-benefits-a-developer/" target="_blank">Developers can create an exceptionally great application</a> with the help of IDE. While creating a Typescript application, NetBeans by using the Everlaw plugin. This is done by combining the error highlighting, syntax highlighting, code completion and usages highlighting together. The TypeScript support shows the transportation of the Typescript files into ES5 JavaScript. It happens automatically while the file is saved. In case the plug in which you are using is in the early stages of development some technical errors might happen. However, they can be avoided by restarting NetBeans. </span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;"><i><b>So, What Features Of NetBeans Make This Combination Possible?</b></i></span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">NetBeans play a vital role in making the impossible possible through this perfect combination of the frameworks. There are some powerful features that work behind NetBeans which make it the hero. Take a look below:</span></p>
+<ol style="text-align: justify;">
+<li>
+<p align="JUSTIFY"><span style="font-size: medium;">The Integrated obfuscator and optimizer support help to reduce the size of the application and include optimization steps. </span></p>
+</li>
+<li>
+<p align="JUSTIFY"><span style="font-size: medium;">The MIDIlets templates reduce the time to make MIDIet applications. </span></p>
+</li>
+<li>
+<p align="JUSTIFY"><span style="font-size: medium;">The J2ME JAD and JAR files create java application descriptors which are required for deploying MIDIet suites. Moreover, they also help to create package suites to JAR files easily.</span></p>
+</li>
+<li>
+<p align="JUSTIFY"><span style="font-size: medium;">The emulator speeds up the development time. As a result, you can develop as well as test J2ME MIDP/CLDC compliant based applications with the help of the emulator. The icing on the cake is that the emulator has many device skins with various factors. </span></p>
+</li>
+<li>
+<p align="JUSTIFY"><span style="font-size: medium;">The presence of integrated debugging tools increases the productivity of developers by simplifying the debugging process of MIDIet applications. </span></p>
+</li>
+<li>
+<p align="JUSTIFY"><span style="font-size: medium;">With the help of emulator SDK registry, one can integrate with any kind of third party device. You can switch from a J2ME wireless Toolkit to any kind of device emulators that run on SDK. For instance: you can make use of third party emulators of Siemens, Nokia, Sony Ericsson and Motorola. </span></p>
+</li>
+<li>
+<p align="JUSTIFY"><span style="font-size: medium;">With a unified emulator interface, the capacity of an emulator increases automatically.</span></p>
+</li>
+<li>
+<p align="JUSTIFY"><span style="font-size: medium;">The JSR 185 enables Java technology to be used in the wireless industry for compliance checking. </span></p>
+</li>
+<li>
+<p align="JUSTIFY"><span style="font-size: medium;">With dual support from MIDP 2.0, one can configure the as well as reduce errors by generating proper compilers in JAD formats.</span></p>
+</li>
+</ol>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;"><i><b>Wrap Up!</b></i></span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">The advance infrastructure of NetBeans, the TypeScript plug in contribute towards developing a web application with the help of AngularJS 2 on the frontend. The availability of some of the basic features such as code completion and syntax highlighting help to automatically switch from TypeScript to JavaScript. In the near future, as the plug-ins will continue to upgrade themselves, the existing bugs will surely be eliminated. </span></p>
+<p style="text-align: justify;" align="JUSTIFY"><span style="font-size: medium;">If you are looking to create a project with the help of these three technological wonders, then send us a mail at <a href="mailto:sales@unifiedinfotech.net">sales@unifiedinfotech.net</a> and we will get back to you. </span></p>
+<p>The post <a rel="nofollow" href="https://www.unifiedinfotech.net/blog/angularjs2-netbeans-typescript-a-fantastic-combination/">AngularJS2, NetBeans &#038; Typescript</a> appeared first on <a rel="nofollow" href="https://www.unifiedinfotech.net/blog">Unified Infotech</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.unifiedinfotech.net/blog/angularjs2-netbeans-typescript-a-fantastic-combination/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
